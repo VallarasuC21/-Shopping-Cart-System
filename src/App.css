@@ -1,0 +1,84 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+  margin-top: 20px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-left: 350px;
+  padding: 20px;
+}
+
+.products, .cart {
+  margin: 20px 0;
+}
+
+.products ul, .cart ul {
+  list-style: none;
+  padding: 0;
+}
+
+.products li, .cart li {
+  background-color: #fff;
+  margin: 10px 0;
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.products li button, .cart li button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.products li button:hover, .cart li button:hover {
+  background-color: #0056b3;
+}
+
+.cart li input[type="number"] {
+  width: 50px;
+  padding: 5px;
+  font-size: 14px;
+  margin: 0 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.cart li input[type="number"]:focus {
+  outline: none;
+  border-color: #007bff;
+}
+
+h2 {
+  color: #555;
+  border-bottom: 2px solid #eee;
+  padding-bottom: 5px;
+  margin-bottom: 15px;
+}
+
+h3 {
+  color: #333;
+  text-align: right;
+}
+
+button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
